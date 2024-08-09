@@ -81,7 +81,7 @@
         <docker.image.prefix>springcommunity</docker.image.prefix>
          
              <sonar.host.url>http://54.163.2.8:9000/</sonar.host.url>
-             <sonar.login>squ_2b6af7ca9a399e86f110e1dd1d4dc365564cd399</sonar.login>
+             <sonar.login>squ_540cd202c7c3c2602689dd02820f4583d3d4bade</sonar.login>
              <sonar.password>Sohail@619</sonar.password>
 
 
