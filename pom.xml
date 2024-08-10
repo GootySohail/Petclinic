@@ -610,18 +610,6 @@
            <url>http://54.163.2.8:8081/repository/maven-releases/</url>
          </repository>
     </repositories>
-    <proxies>
-    <proxy>
-        <id>example-proxy</id>
-        <active>true</active>
-        <protocol>http</protocol>
-        <host>proxy.example.com</host>
-        <port>8080</port>
-        <username>proxyuser</username>
-        <password>somepassword</password>
-        <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
-    </proxy>
-</proxies>
 
 
 </project>
