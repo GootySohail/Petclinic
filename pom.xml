@@ -538,16 +538,14 @@
                 <jdbc.password/>
             </properties>
             <distributionManagement>
-                    <repository>
-                      <id>maven-releases</id>
-                      <!-- CHANGE HERE by your team Nexus server -->
-                      <url>http://54.92.201.150:8081/repository/maven-releases/</url>
-                    </repository>
-                    <snapshotRepository>
-                      <id>maven-snapshots</id>
-                      <!-- CHANGE HERE by your team Nexus server -->
-                      <url>http://54.92.201.150:8081/repository/maven-releases/</url>
-                    </snapshotRepository>
+                  <repository>
+                 <id>nexus-releases</id>
+                 <url>http://18.215.161.156:8081/repository/maven-releases/</url>
+             </repository>
+             <snapshotRepository>
+                 <id>nexus-snapshots</id>
+                 <url>http://18.215.161.156:8081/repository/maven-snapshots/</url>
+             </snapshotRepository>
          </distributionManagement>
             <dependencies>
                 <dependency>
