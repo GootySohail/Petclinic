@@ -538,11 +538,17 @@
                 <jdbc.password/>
             </properties>
             <distributionManagement>
-                  <repository>
-                 <id>nexus-releases</id>
+         
+             <repository>
+                 <id>maven-releases</id>
                  <url>http://18.215.161.156:8081/repository/maven-releases/</url>
              </repository>
-         </distributionManagement>
+             <snapshotRepository>
+                 <id>maven-snapshots</id>
+                 <url>http://18.215.161.156:8081/repository/maven-snapshots/</url>
+             </snapshotRepository>
+
+            </distributionManagement>
             <dependencies>
                 <dependency>
                     <groupId>org.hsqldb</groupId>
